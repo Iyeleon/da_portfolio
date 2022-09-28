@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import image from './assets/dami_akinniyi-02.png'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={image} className="App-logo" alt="Dami Akinniyi" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Computational Designer | Machine Learning Scientist
         </p>
         <a
           className="App-link"
@@ -15,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Explore Project
         </a>
       </header>
     </div>
